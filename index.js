@@ -70,8 +70,8 @@ module.exports = function(opts,done) {
         requirejs.tools.useLib(function(require){
             rjsConfig = require('transform').modifyConfig(config,function(config){
                for (var aPath in config.paths) {
-                 if (typeof(assets[aPath]) !== 'undefined') {
-                    config.paths[aPath] = assets[aPath].replace(/\.js$/, '');
+                 if (typeof(assets[aPath+'.js']) !== 'undefined') {
+                    config.paths[aPath] = assets[aPath+'.js'].replace(/\.js$/, '');
                  }
                }           
                

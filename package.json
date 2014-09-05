@@ -25,8 +25,7 @@
     "file-utils": "^0.2.0"
   },
   "files": [
-    "bin",
-    "lib"
+    "bin"
   ],
   "devDependencies": {
     "should": "*",

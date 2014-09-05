@@ -3,7 +3,7 @@
 var nopt    = require('nopt');
 var chalk   = require('chalk');
 var path    = require('path');
-var project = require('../lib');
+var project = require('../');
 var pkg     = require('../package.json');
 
 
