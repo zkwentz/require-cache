@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fengmk2/require-cache.git"
+    "url": "git://github.com/zkwentz/require-cache.git"
   },
   "keywords": [
     "require-cache"
@@ -36,6 +36,6 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com>",
+  "author": "Zach Wentz <zkwentz@gmail.com>",
   "license": "MIT"
 }
